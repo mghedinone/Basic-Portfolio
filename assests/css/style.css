@@ -15,78 +15,87 @@
 
 }
 
-a:link {
-    text-decoration: none;
-}
-
-a:visited {
-    text-decoration: none;
-}
-
-#PageLinks{
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	font-size: 20px;
-	color:#777777;
-	padding:20px;
-	text-align: left;
-	background-color: white;
-	margin-right: 50px;
-	float:left;
-	margin-bottom: 0px;
-	margin-left: 375px;
-
-}
-
 
   
 #MainFrame {
 	width: 100%;
 	overflow: auto;
 	background-image: url("../images/cork-wallet.png");
-	height: 800px;
 	border-top-style: solid;
 	border-top-color: #cccccc;
 	border-top-width: 2px;
-
-}
-  
-
-
-#GHLogo{
-	height: 20px;
-	width: 20px;
 	float: left;
-	margin-right: 30px;
-
 
 }
 
-#LinkedIN{
-	height: 20px;
-	width: 20px;
-	float: left;
-	margin-right: 30px;
+a:link {
+    color: #777777;
 }
 
-#EMail{
-	height: 20px;
-	width: 20px;
-	float: left;
-	margin-right: 30px;
+a:visited {
+    color: #777777;
+}
+
+
+
+a:link {
+    text-decoration: #777777;
+}
+
+a:visited {
+    text-decoration: #777777;
+}
+
+
+
+.Links {
+ 	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size:17px;
+	color:#777777;
+	padding:20px;
+	background-color: white;
+	margin-right: 50px;
+	margin-left: 490px;
+	float:left;
+	margin-bottom: 0px;
+}
+
+
+.connect-link{
+	height: 10px;
+	padding-top: 30px;
+
+	
+	margin-left: 10px;
+	margin-right: 10px;
+	display: inline-block;
 	}
 
-aside h1{
-	  
+
+.porfolio-link{
+	height: 10px;
+	padding-top: 30px;
+
+	font-size: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: inline-block;
+	float: left;
+	}
+
+
+h1{
   font-size: 20px;
   font-family:'Georgia', Times, Times New Roman, serif;
   font-weight:  bold;
   color:#4aaaa5;
+
 }
 
 aside{
   float: left;
-  width: 33%;
-  height: 400px;
+  width: 580px;
+  height: 430px;
   padding: 20px;
   margin-left: 100px;
   background: white;
@@ -111,10 +120,10 @@ hr {
   border-bottom: 1px solid #dddddd;
 }
 
-connect{
+.connect{
   float: left;
-  width: 300px;
-  height: 300px;
+  width: 240px;
+  height: 180px;
   padding: 20px;
   margin-left: 40px;
   background: white;
@@ -125,7 +134,13 @@ connect{
   font-family:'Georgia', Times, Times New Roman, serif;
   font-weight:  bold;
   color:#4aaaa5;
+  text-align: center;
+
 }
+
+
+  
+
 
 footer{
 	width:100%;
@@ -138,5 +153,28 @@ footer{
 	border-top-style: solid;
 	border-top-color: #4aaaa5;
 	border-top-width: 4px;
+	clear: both;
 
+}
+
+
+.portfolio{
+  float: left;
+  width: 580px;
+  height: 430px;
+  padding: 20px;
+  margin-left: 100px;
+  background: white;
+  border: 2px solid #dddddd;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family:Georgia;
+  color: #777777;
+}
+
+
+
+.portfolio img{
+	float:left;
+	padding: 10px;
 }
